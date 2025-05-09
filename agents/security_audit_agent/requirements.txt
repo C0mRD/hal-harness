@@ -1,0 +1,6 @@
+smolagents
+smolagents[openai]
+smolagents[litellm]
+ollama
+python-dotenv
+google-genai
