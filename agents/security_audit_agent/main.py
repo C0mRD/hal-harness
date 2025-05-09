@@ -28,6 +28,16 @@ check_secure_config_tool = CheckSecureConfigTool()
 
 @tool
 def generate_vulnerability_report(scanner_findings: str, code_context: str) -> str:
+    """
+    Generate a comprehensive vulnerability report based on scanner findings.
+    
+    Args:
+        scanner_findings: Raw output from the security scanner agent
+        code_context: The code that was analyzed
+        
+    Returns:
+        str: A detailed markdown report of security vulnerabilities found in the code
+    """
     prompt = f"""
     As a security report specialist, create a comprehensive vulnerability report based on the 
     scanner findings below. For each vulnerability:
