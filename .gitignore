@@ -28,3 +28,5 @@ hal/benchmarks/scienceagentbench/benchmark
 experiments/*
 archive/*
 agents/USACO/data/.DS_Store
+__pycache__
+.DS_Store
